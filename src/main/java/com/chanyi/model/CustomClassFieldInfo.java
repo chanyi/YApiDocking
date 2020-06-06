@@ -1,0 +1,1 @@
+package com.chanyi.model;import java.io.Serializable;import lombok.Getter;import lombok.Setter;import lombok.ToString;/** * 自定义类的属性 *  * @author lilei * */@Getter@Setter@ToStringpublic class CustomClassFieldInfo implements Serializable {	private static final long serialVersionUID = -1681983395894810422L;		private String name;		private String desc;}
